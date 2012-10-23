@@ -1,0 +1,16 @@
+<tal:block define="desc context/Description | nothing;">
+   <center>
+      <a tal:attributes="href context/link" style="display:block;">
+         <div class="slider-background">
+            <div class="text-wrapper">
+            <h3 tal:content="context/pretty_title_or_id"></h3>
+            <p tal:content="context/Description"></p>
+            </div>
+         </div>
+         <img src="" alt=""
+            tal:condition="exists:context/image"
+            tal:replace="structure python: path('nocall:context/tag')(alt=desc, title=desc)" />
+
+      </a>
+  </center>
+</tal:block>

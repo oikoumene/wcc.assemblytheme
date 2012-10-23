@@ -1,0 +1,114 @@
+#visual-portal-wrapper {
+    width:980px;
+    margin: 0 auto;
+}
+
+body {
+    background: url("images/background.jpg") repeat-x;
+}
+
+#portal-globalnav {
+    margin-top:70px;
+}
+
+.portlet {
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.16) inset;
+    border: 1px solid rgb(207, 242, 248);
+}
+
+.portletWrapper {
+    margin-bottom:20px;
+}
+
+.portletSearch {
+    border:none;
+    box-shadow:none;
+}
+
+#portal-globalnav {
+    background: #64C3C0;
+    font-size:15px;
+    line-height:50px;
+}
+
+.portletSearch input[type='text'] {
+    line-height:36px;
+    height:36px;
+    border: 1px solid rgb(207, 242, 248);
+    width:160px;
+}
+
+.portletSearch input[type='submit'] {
+    color:transparent;
+    background: url('images/btn-search.png') no-repeat;
+    height:36px;
+    width: 54px;
+    border:none;
+}
+
+.portletSearch .portletHeader {
+    font-weight:bold;
+}
+
+.portlet .livesearchContainer {
+    background:#fff;
+}
+
+.portlet .LSRow, .portlet #LSNothingFound {
+    width:180px;
+}
+dl.portlet.portletSearch dt, dl.portlet.portletSearch dd {
+    padding:0;
+}
+
+.carousel div.navi {
+    background:#7DD0BA;
+    margin:0px auto;
+    width:640px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.carousel div.navi a {
+    background: #4DABBA;
+    height:10px;
+    width:10px;
+    border-radius: 7px;
+    border:1px solid #49A2B0;
+}
+
+.carousel div.navi a.active {
+    background: #BEDA5C;
+    height:10px;
+    width:10px;
+    border-radius: 7px;
+    border:1px solid #49A2B0;
+}
+
+
+.carousel div.scrollable div.items div.itemPadding {
+        margin: 3px 1em;
+}
+
+.slider-background {
+    position:absolute;
+    background:url('sliderbg.png') no-repeat right;
+    display:block;
+    height:300px;
+    width:640px;
+    margin:0 0.8em;
+}
+
+.slider-background .text-wrapper {
+    margin-top:50px;
+    float:right;
+    text-align:right;
+    padding-right:30px;
+    width:300px;
+    color:#fff;
+}
+.slider-background h3 {
+    color:#fff;
+    font-weight:500;
+    font-size:23px;
+}
