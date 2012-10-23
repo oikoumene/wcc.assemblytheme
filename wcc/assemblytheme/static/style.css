@@ -112,3 +112,7 @@ dl.portlet.portletSearch dt, dl.portlet.portletSearch dd {
     font-weight:500;
     font-size:23px;
 }
+
+.template-atct_edit fieldset {
+    width: 95%;
+}
