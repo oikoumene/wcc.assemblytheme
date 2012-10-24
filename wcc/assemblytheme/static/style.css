@@ -116,3 +116,11 @@ dl.portlet.portletSearch dt, dl.portlet.portletSearch dd {
 .template-atct_edit fieldset {
     width: 95%;
 }
+
+#portal-footer-links {
+    float:right;
+}
+
+#portal-footer-copyright {
+    float:left;
+}

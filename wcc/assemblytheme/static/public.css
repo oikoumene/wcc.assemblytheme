@@ -1800,10 +1800,19 @@ dl.toc dd ol {
 
 #portal-footer {
     font-size: 75%;
-    background: #ddd;
     padding: 1em;
     margin: 1em 0;
-    line-height: 2em;
+    line-height: 1em;
+    border-top:2px solid #E6E6E6;
+    color:#999;
+}
+
+#portal-footer a:link, #portal-footer a:visited {
+    color:#999;
+}
+
+#portal-footer a:hover {
+    text-decoration:underline;
 }
 
 #portal-colophon {

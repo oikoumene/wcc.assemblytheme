@@ -28,6 +28,6 @@
         <replace css:theme="#portal-languageselector" css:content="#portal-languageselector"/>
         <replace css:theme="#portal-logo" css:content="#portal-logo"/>
         <replace css:theme="#portal-globalnav" css:content="#portal-globalnav"/>
-        <replace css:theme="#portlets-footer" css:content="#portlets-footer"/>
+        <replace css:theme-children="#portal-footer-links > ul" css:content-children="#portal-siteactions"/>
     </rules>
 </rules>
