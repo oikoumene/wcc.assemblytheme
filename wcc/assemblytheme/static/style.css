@@ -7,8 +7,22 @@ body {
     background: url("images/background.jpg") repeat-x;
 }
 
+
 #portal-globalnav {
     margin-top:70px;
+    text-align:right;
+}
+
+#globalnav-home {
+    float:left;
+    background:#4DABBA;
+    font-size:20px;
+    font-weight:500;
+    background: url("images/bluetile.png") right no-repeat;
+}
+
+#portal-globalnav li {
+    text-align:left;
 }
 
 .portlet {

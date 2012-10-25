@@ -27,7 +27,11 @@
         <replace css:theme="#portal-personaltools-wrapper" css:content="#portal-personaltools-wrapper"/>
         <replace css:theme="#portal-languageselector" css:content="#portal-languageselector"/>
         <replace css:theme="#portal-logo" css:content="#portal-logo"/>
-        <replace css:theme="#portal-globalnav" css:content="#portal-globalnav"/>
+        <append css:theme="#portal-globalnav" css:content-children="#portal-globalnav"/>
+        <copy css:theme="#globalnav-home > a" css:content="#portal-logo > a" attributes="href"/>
+        <replace css:theme-children="#globalnav-home > a">
+            <xsl:value-of select="//*[@id='portal-logo']/a/@title"/>
+        </replace>
         <replace css:theme-children="#portal-footer-links > ul" css:content-children="#portal-siteactions"/>
     </rules>
 </rules>

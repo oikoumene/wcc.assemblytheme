@@ -123,22 +123,17 @@ q {
 #portal-globalnav li a {
     display: inline-block;
     padding: 0 1em 0 1em;
-    min-width: 6em;
+    min-width: 4em;
     white-space: normal;
     /*TODO: Once we have removed the whitespace from the nav template, this can be put back*/
     /*border-bottom: 0.1em solid White;*/
     color:#fff;
 }
 
-#portal-globalnav .selected a,
 #portal-globalnav a:hover {
-    background: #4DABBA;
-    color: White;
+    text-decoration:underline;
 }
-#portal-globalnav .selected a:hover {
-    background: #ddd;
-    color: #205c90;
-}
+
 
 #portal-personaltools {
     float: right;
