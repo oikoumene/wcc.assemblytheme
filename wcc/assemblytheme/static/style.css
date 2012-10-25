@@ -71,6 +71,10 @@ body {
 .portlet .LSRow, .portlet #LSNothingFound {
     width:180px;
 }
+
+.LSResult {
+    position:absolute;
+}
 dl.portlet.portletSearch dt, dl.portlet.portletSearch dd {
     padding:0;
 }
