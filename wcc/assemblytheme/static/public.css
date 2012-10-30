@@ -432,8 +432,6 @@ dl.portletNavigationTree dd.portletItem {
 }
 
 dl.portlet ul.navTreeLevel0 > .navTreeItem {
-    padding: 0.25em 1em;
-    border-bottom: 0.1em dotted #ddd;
     line-height: 2em;
 }
 
@@ -443,10 +441,7 @@ dl.portlet ul.navTreeLevel1 .navTreeItem {
 }
 
 dl.portlet ul.navTree .navTreeCurrentItem {
-    background-color: #ddd;
-    border-left: 1em solid #ddd;
-    margin-left: -1em;
-    margin-right: -1em;
+    font-weight:bold;
 }
 
 /* @end */
@@ -2170,6 +2165,18 @@ a.historyComparePrevious span {
     background: no-repeat transparent 0px -1724px url(contenttypes-sprite.png);
 }
 
+/* disable on navigation */
+.icons-on .portletNavigationTree .contenttype-document,
+.icons-on .portletNavigationTree .contenttype-event,
+.icons-on .portletNavigationTree .contenttype-folder,
+.icons-on .portletNavigationTree .contenttype-link,
+.icons-on .portletNavigationTree .contenttype-news-item,
+.icons-on .portletNavigationTree .contenttype-plone-site,
+.icons-on .portletNavigationTree .contenttype-collection,
+.icons-on .portletNavigationTree .contenttype-topic
+{
+    background: none
+}
 /* These should only appear in the add menu */
 .icons-on #plone-contentmenu-factories .contenttype-file {
     background: no-repeat transparent 0px -428px url(contenttypes-sprite.png);
