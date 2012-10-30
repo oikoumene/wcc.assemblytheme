@@ -2177,6 +2177,11 @@ a.historyComparePrevious span {
 {
     background: none
 }
+
+.portletNavigationTree img {
+    visibility:hidden;
+}
+
 /* These should only appear in the add menu */
 .icons-on #plone-contentmenu-factories .contenttype-file {
     background: no-repeat transparent 0px -428px url(contenttypes-sprite.png);

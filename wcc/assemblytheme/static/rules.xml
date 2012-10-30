@@ -8,6 +8,7 @@
     <theme href="index.html" css:if-content="#visual-portal-wrapper"/>
     <theme href="dialog.html" css:if-content="#content.dialog-wrapper"/>
     <replace css:theme="title" css:content="title"/>
+    <merge theme="/html" content="/html" attributes="lang"/>
 
     <rules css:if-content="#content.dialog-wrapper">
         <prepend theme="/html/head" 
