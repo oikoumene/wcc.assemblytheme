@@ -85,6 +85,7 @@ dl.portlet.portletSearch dt, dl.portlet.portletSearch dd {
     width:640px;
     border-bottom-right-radius: 7px;
     border-bottom-left-radius: 7px;
+    text-align:left;
 }
 
 .carousel div.navi a {
