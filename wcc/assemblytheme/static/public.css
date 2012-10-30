@@ -436,7 +436,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 dl.portlet ul.navTreeLevel1 .navTreeItem {
-    padding-left: 0.5em;
+    padding-left: 1em;
     line-height: 2em;
 }
 
@@ -1848,7 +1848,7 @@ dl.toc dd ol {
     font-size: 85%;
     font-weight: normal;
     margin-bottom: 0;
-    padding: 0.25em 0;
+    padding: 1em 0;
 }
 
 /* @end */
