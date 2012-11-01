@@ -423,6 +423,21 @@ dl.portlet ul.navTree li a {
     zoom: 1;
 }
 
+dl.portlet ul.navTree .navTreeTopNode {
+    color: #347889;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 0.42em 1em 20px 0;
+}
+
+dl.portlet .navTreeTopNode a:link,
+dl.portlet .navTreeTopNode a:visited,
+dl.portlet .navTreeTopNode a:hover {
+    color: #347889;
+}
+
+
 dl.portlet ul.navTree li a:hover {
 
 }
