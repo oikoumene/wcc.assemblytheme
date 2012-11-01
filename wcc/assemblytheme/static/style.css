@@ -157,6 +157,12 @@ html[lang=fr] .slider-background {
     float:right;
 }
 
+div#portal-footer-links ul li {
+    padding-right: 0.5em;
+
+}
+
 #portal-footer-copyright {
     float:left;
 }
+
