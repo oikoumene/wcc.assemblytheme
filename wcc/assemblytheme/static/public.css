@@ -496,6 +496,14 @@ dl.portlet a:visited {
 dl.portlet a:hover {
     color: #75ad0a !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
 }
+
+dl.portlet a:link,
+dl.portlet a:visited,
+dl.portlet a:hover {
+    color: #000;
+}
+
+
 #content a:target {
     background-color: #ffb;
 }
