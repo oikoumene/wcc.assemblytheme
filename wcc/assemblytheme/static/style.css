@@ -39,6 +39,11 @@ body {
     box-shadow:none;
 }
 
+.portletSearch .portletHeader a,
+.portletSearch .portletFooter {
+    display:none !important;
+}
+
 #portal-globalnav {
     background: #64C3C0;
     font-size:16px;
