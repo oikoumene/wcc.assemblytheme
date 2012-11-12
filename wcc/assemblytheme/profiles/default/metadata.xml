@@ -3,6 +3,7 @@
     <version>1000</version>
     <dependencies>
         <dependency>profile-plone.app.theming:default</dependency>
+        <dependency>profile-inigo.ploneanalyticswrapper:default</dependency>
     </dependencies>
 </metadata>
 

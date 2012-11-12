@@ -24,7 +24,8 @@ setup(name='wcc.assemblytheme',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'plone.app.theming'
+          'plone.app.theming',
+          'inigo.ploneanalyticswrapper'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
