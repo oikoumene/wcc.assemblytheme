@@ -37,5 +37,6 @@
             <xsl:value-of select="//*[@id='portal-logo']/a/@title"/>
         </replace>
         <replace css:theme-children="#portal-footer-links > ul" css:content-children="#portal-siteactions"/>
+        <replace css:theme="#site-analytics" css:content="#plone-analytics"/>
     </rules>
 </rules>
