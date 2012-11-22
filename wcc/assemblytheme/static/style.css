@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url("images/background.jpg") repeat-x;
+/*    background: url("images/background.jpg") repeat-x;*/
 }
 
 
@@ -85,21 +85,23 @@ dl.portlet.portletSearch dt, dl.portlet.portletSearch dd {
 }
 
 .carousel div.navi {
-    background:#7DD0BA;
     margin:0px auto;
-    width:620px;
     padding-left:20px;
     border-bottom-right-radius: 7px;
     border-bottom-left-radius: 7px;
     text-align:left;
+    position:absolute;
+    top:260px;
+    right:50px;
+    z-index:5;
 }
 
 .carousel div.navi a {
-    background: #4DABBA;
+    background: #67D0DC;
     height:13px;
     width:13px;
     border-radius: 8px;
-    border:1px solid #49A2B0;
+    border:1px solid #247380;
 }
 
 .carousel div.navi a.active {
@@ -107,7 +109,7 @@ dl.portlet.portletSearch dt, dl.portlet.portletSearch dd {
     height:13px;
     width:13px;
     border-radius: 8px;
-    border:1px solid #49A2B0;
+    border:1px solid #247380;
 }
 
 .carousel a.browse {
