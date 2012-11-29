@@ -19,7 +19,6 @@
     </rules>
 
     <rules css:if-content="#visual-portal-wrapper" >
-        <drop css:theme="#portal-logo"/>
         <replace css:content=".portletSearch .searchButton">
             <input class="searchButton" type="submit" value=" "/>
         </replace>
@@ -39,5 +38,6 @@
         </replace>
         <replace css:theme-children="#portal-footer-links > ul" css:content-children="#portal-siteactions"/>
         <replace css:theme="#site-analytics" css:content="#plone-analytics"/>
+        <drop css:theme="#portal-logo"/>
     </rules>
 </rules>
