@@ -178,30 +178,3 @@ div#portal-footer-links ul li {
     display:none;
 }
 
-
-#churchbody-memberdetails {
-    margin-top: 20px;
-}
-
-div #content-core{
-
-    font-size: 14px;
-    line-height: 18px;
-    margin: 0 0 18px;
-    color: #221B1B;
-    font-family: Verdana, Helvetica, Arial, sans-serif;
-}
-b.churchbody-label {
-    font-size: 18px;
-}
-
-table#churchbody-memberdetails th {
-    font-size: 16px;
-    font-weight: bold;
-    padding: 5px;
-}
-
-table#churchbody-memberdetails td {
-    font-size: 14px;
-    padding: 5px;
-}
