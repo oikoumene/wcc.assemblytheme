@@ -178,3 +178,6 @@ div#portal-footer-links ul li {
     display:none;
 }
 
+.section-front-page #portal-breadcrumbs {
+    display: none;
+}
