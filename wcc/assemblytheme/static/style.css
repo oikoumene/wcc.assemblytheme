@@ -177,3 +177,7 @@ div#portal-footer-links ul li {
 .portaltype-document .documentDescription {
     display:none;
 }
+
+.section-front-page #portal-breadcrumbs {
+    display: none;
+}
