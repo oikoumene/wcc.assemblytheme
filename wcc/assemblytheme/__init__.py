@@ -1,9 +1,11 @@
 from zope.interface import implements
 from Products.CMFQuickInstallerTool.interfaces import INonInstallable
+from five import grok
 
-class HiddenProducts(object):
+class HiddenProducts(grok.GlobalUtility):
     """This hides the upgrade profiles from the quick installer tool."""
-    implements(INonInstallable)
+    grok.implements(INonInstallable)
+    grok.name('wcc.assemblytheme.upgrades')
 
     def getNonInstallableProducts(self):
         return [
