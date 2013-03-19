@@ -23,5 +23,6 @@
 
     <cmf:registerDirectory name="wcc_assemblytheme"/>
     <include package=".upgrades"/>
+    <include package=".browser"/>
 
 </configure>
