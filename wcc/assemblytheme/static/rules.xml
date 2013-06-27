@@ -39,5 +39,7 @@
         <replace css:theme-children="#portal-footer-links > ul" css:content-children="#portal-siteactions"/>
         <replace css:theme="#site-analytics" css:content="#plone-analytics"/>
         <drop css:theme="#portal-logo"/>
+        <replace css:theme-children="#portal-footer-copyright"
+            css:content-children="#wcc-copyright"/>
     </rules>
 </rules>

@@ -11,7 +11,7 @@
     <includeDependencies package="." />
     <grok:grok package="." />
     <plone:static directory="static" type="theme" />
-
+    <i18n:registerTranslations directory="locales" />
 
     <genericsetup:registerProfile
         name="default"

@@ -1,6 +1,7 @@
 from plone.app.layout.viewlets.common import LogoViewlet as BaseLogoViewlet
 from plone.app.layout.viewlets.common import ViewletBase
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
+from datetime import datetime
 
 class LogoViewlet(BaseLogoViewlet):
 
@@ -24,3 +25,10 @@ class LogoViewlet(BaseLogoViewlet):
                 'description').get(navroot)
         else:
             self.navigation_root_description = u''
+
+
+class CopyrightViewlet(ViewletBase):
+    index = ViewPageTemplateFile('templates/copyright.pt')
+
+    def year(self):
+        return datetime.now().year
