@@ -173,11 +173,22 @@ div#portal-footer-links ul li {
     float:left;
 }
 
-
 .portaltype-document .documentDescription {
     display:none;
 }
 
 .section-front-page #portal-breadcrumbs {
     display: none;
+}
+
+.section-news-media .twtr-doc {
+   width:220px!important;
+}
+
+#content img.tileImage, #content div.newsImageContainer {
+    max-width: 390px;
+}
+
+#content .documentDescription {
+    display:none;
 }
