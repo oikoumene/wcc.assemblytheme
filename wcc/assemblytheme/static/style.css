@@ -46,6 +46,7 @@ body {
 
 #portal-globalnav {
     background: #64C3C0;
+    box-shadow: 0 3px 5px #919191;
     font-size:16px;
     line-height:50px;
 }
