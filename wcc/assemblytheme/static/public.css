@@ -1812,7 +1812,7 @@ dl.toc dd ol {
     padding: 1em;
     margin: 1em 0;
     line-height: 1em;
-    border-top:2px solid #E6E6E6;
+    border-top: 5px solid rgb(83, 164, 189);
     color:#999;
 }
 
