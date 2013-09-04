@@ -61,8 +61,10 @@ body {
 .portletSearch input[type='submit'] {
     color:transparent;
     background: url('images/btn-search.png') no-repeat;
-    height:36px;
-    width: 54px;
+    height:40px;
+    width: 58px;
+    margin-left: 2px;
+    vertical-align: middle;
     border:none;
 }
 
