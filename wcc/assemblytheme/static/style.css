@@ -54,7 +54,7 @@ body {
 .portletSearch input[type='text'] {
     line-height:36px;
     height:36px;
-    border: 1px solid rgb(207, 242, 248);
+    border: 1px solid rgb(147, 147, 147);
     width:160px;
 }
 
@@ -192,4 +192,22 @@ div#portal-footer-links ul li {
 
 #content .documentDescription {
     display:none;
+}
+
+/*form elemnet*/
+input[type='submit'],
+input[type="reset"],
+input[type='button']
+button{
+    background-color: #64C2C1;
+}
+input[type='text'],
+input[type='password'],
+input[type=''],
+textarea{
+    border: 1px solid rgb(147, 147, 147);
+}
+select{
+    background: none;
+    border: 1px solid rgb(147, 147, 147);
 }
