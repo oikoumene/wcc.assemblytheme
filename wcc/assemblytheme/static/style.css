@@ -194,6 +194,11 @@ div#portal-footer-links ul li {
     display:none;
 }
 
+/*Afterfive - CSS ADJUSMENT*/
+#content h1.documentFirstHeading{
+    color: rgb(83, 164, 189);
+}
+
 /*form elemnet*/
 input[type='submit'],
 input[type="reset"],
@@ -203,7 +208,7 @@ button{
 }
 input[type='text'],
 input[type='password'],
-input[type=''],
+input[type='reset'],
 textarea{
     border: 1px solid rgb(147, 147, 147);
 }
