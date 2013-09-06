@@ -203,7 +203,7 @@ div#portal-footer-links ul li {
     color: rgb(83, 164, 189);
 }
 
-/*form elemnet*/
+/*form element*/
 input[type='submit'],
 input[type="reset"],
 input[type='button']
@@ -226,3 +226,21 @@ select{
     border: 1px solid rgb(147, 147, 147);
     padding: 5px;
 }
+
+/*input tag under div class 'form controls'*/
+.actionButtons input,
+.formControls input{
+    margin-right: 10px;
+}
+
+/*quicksearch*/
+.quicksearch form{
+    text-align: center;
+}
+.quicksearch input[type="text"]{
+    margin-right: 10px;
+}
+.quicksearch input{
+    font-size: 200% !important;
+}
+
