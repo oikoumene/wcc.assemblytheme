@@ -46,6 +46,7 @@ body {
 
 #portal-globalnav {
     background: #64C3C0;
+    box-shadow: 0 3px 5px #919191;
     font-size:16px;
     line-height:50px;
 }
@@ -53,16 +54,20 @@ body {
 .portletSearch input[type='text'] {
     line-height:36px;
     height:36px;
-    border: 1px solid rgb(207, 242, 248);
-    width:160px;
+    border: 1px solid rgb(147, 147, 147);
+    width:148px;
+    padding: 0;
 }
 
 .portletSearch input[type='submit'] {
     color:transparent;
     background: url('images/btn-search.png') no-repeat;
-    height:36px;
-    width: 54px;
+    height:40px;
+    width: 58px;
+    margin-left: 2px;
+    vertical-align: middle;
     border:none;
+    cursor: pointer;
 }
 
 .portletSearch .portletHeader {
@@ -192,3 +197,50 @@ div#portal-footer-links ul li {
 #content .documentDescription {
     display:none;
 }
+
+/*Afterfive - CSS ADJUSMENT*/
+#content h1.documentFirstHeading{
+    color: rgb(83, 164, 189);
+}
+
+/*form element*/
+input[type='submit'],
+input[type="reset"],
+input[type='button']
+button{
+    background-color: #64C2C1;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+input[type='text'],
+input[type='password'],
+input[type='reset'],
+textarea{
+    border: 1px solid rgb(147, 147, 147);
+    padding: 5px;
+}
+select{
+    background: none;
+    border: 1px solid rgb(147, 147, 147);
+    padding: 5px;
+}
+
+/*input tag under div class 'form controls'*/
+.actionButtons input,
+.formControls input{
+    margin-right: 10px;
+}
+
+/*quicksearch*/
+.quicksearch form{
+    text-align: center;
+}
+.quicksearch input[type="text"]{
+    margin-right: 10px;
+}
+.quicksearch input{
+    font-size: 200% !important;
+}
+

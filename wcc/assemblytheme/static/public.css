@@ -1809,10 +1809,11 @@ dl.toc dd ol {
 
 #portal-footer {
     font-size: 75%;
-    padding: 1em;
+    padding: 3em 1em 1em;
     margin: 1em 0;
     line-height: 1em;
-    border-top:2px solid #E6E6E6;
+    /*border-top: 5px solid rgb(83, 164, 189);*/
+    background: url('./images/bg-footer-top.png') top left repeat-x;
     color:#999;
 }
 
