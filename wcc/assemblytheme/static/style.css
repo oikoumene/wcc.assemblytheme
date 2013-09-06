@@ -207,14 +207,20 @@ input[type="reset"],
 input[type='button']
 button{
     background-color: #64C2C1;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
 }
 input[type='text'],
 input[type='password'],
 input[type='reset'],
 textarea{
     border: 1px solid rgb(147, 147, 147);
+    padding: 5px;
 }
 select{
     background: none;
     border: 1px solid rgb(147, 147, 147);
+    padding: 5px;
 }
