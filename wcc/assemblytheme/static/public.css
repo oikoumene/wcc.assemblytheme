@@ -1809,7 +1809,7 @@ dl.toc dd ol {
 
 #portal-footer {
     font-size: 75%;
-    padding: 3em 1em 1em;
+    padding: 3em 0 1em;
     margin: 1em 0;
     line-height: 1em;
     /*border-top: 5px solid rgb(83, 164, 189);*/
