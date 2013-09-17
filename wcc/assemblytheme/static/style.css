@@ -244,3 +244,17 @@ select{
     font-size: 200% !important;
 }
 
+/*search result*/
+table.search-result{
+    width: 100%
+}
+table.search-result tr:nth-child(even){
+    background-color: #EEFBFF;
+}
+table.search-result td h4{
+    color: #00ccff;
+}
+table.search-result td p.event-desc{
+    font-style: italic
+}
+
