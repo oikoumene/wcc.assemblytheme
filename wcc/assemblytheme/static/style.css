@@ -265,7 +265,12 @@ select{
 
 /*search result*/
 table.search-result{
-    width: 100%
+    width: 100%;
+    border: none !important;
+}
+table.search-result td,
+table.search-result th{
+    border: none !important;
 }
 table.search-result tr:nth-child(even){
     background-color: #EEFBFF;
