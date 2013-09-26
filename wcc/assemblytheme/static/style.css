@@ -238,9 +238,47 @@ select{
     text-align: center;
 }
 .quicksearch input[type="text"]{
+    width: 35%;
     margin-right: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(147, 147, 147);
+    padding: 5px;
+    font-style: italic;
 }
-.quicksearch input{
-    font-size: 200% !important;
+.quicksearch input[type="submit"],
+.advancedsearch input[type="submit"]{
+    font-size: 15px !important;
+    padding: 8px 15px;
+}
+.advancedsearch form{
+    margin-top: 20px;
+}
+.advancedsearch select,
+.advancedsearch input[type="text"]{
+    width: 90%;
+}
+.advancedsearch .date-checkbox{
+    padding: 5px;
+    color: #808080;
+    font-style: italic;
+}
+
+/*search result*/
+table.search-result{
+    width: 100%;
+    border: none !important;
+}
+table.search-result td,
+table.search-result th{
+    border: none !important;
+}
+table.search-result tr:nth-child(even){
+    background-color: #EEFBFF;
+}
+table.search-result td h4{
+    color: #00ccff;
+}
+table.search-result td p.event-desc{
+    font-style: italic
 }
 
