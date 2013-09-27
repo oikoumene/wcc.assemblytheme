@@ -282,3 +282,44 @@ table.search-result td p.event-desc{
     font-style: italic
 }
 
+/*three col portlet*/
+dl.col-portlet{
+    border: 1px solid #000 !important;
+    box-shadow: none !important;
+}
+dd.portlet-col-item{
+    clear: both !important;
+    display: inline-flex;
+}
+.col-item{
+    float: left;
+}
+.col-item:last-child:after{
+    content: ' ';
+    display: inline-block;
+}
+.col-three-item{
+    width: 33.3%;
+}
+.col-three-item{margin: 0 2%;}
+.col-three-item:first-child{margin-left: 0;}
+.col-three-item:last-child{margin-right: 0;}
+.col-three-item img{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+    background-color: #ccc;
+}
+.col-three-item .event-info{
+    margin-left: 60px;
+}
+.col-three-item .event-info h4{
+    color: #01CCFF;
+    margin-bottom: 10px;
+}
+.col-three-item .event-info p.e-desc{
+    font-style: italic;
+}
+.col-three-item .event-info p span{display: block}
