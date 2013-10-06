@@ -323,3 +323,14 @@ dd.portlet-col-item{
     font-style: italic;
 }
 .col-three-item .event-info p span{display: block}
+
+#portal-footer-copyright a {
+   padding: 20px 0px 15px 68px;
+   font-size:20px;
+   background: url("/++theme++wcc.assemblytheme/wcclogo.png") no-repeat scroll 0px 0px transparent;
+}
+
+#portal-footer-copyright a:link,
+#portal-footer-copyright a:visited {
+    color: #000;
+}
