@@ -334,3 +334,7 @@ dd.portlet-col-item{
 #portal-footer-copyright a:visited {
     color: #000;
 }
+
+.newsImageContainer .discreet span {
+    color: #111 !important;
+}
