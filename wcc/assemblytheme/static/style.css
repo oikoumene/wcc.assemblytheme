@@ -338,3 +338,22 @@ dd.portlet-col-item{
 .newsImageContainer .discreet span {
     color: #111 !important;
 }
+
+/*portletUpcomingProgrammes*/
+.portletUpcomingProgrammes{
+    font-size: 80%;
+}
+.upcoming-item{
+    margin-bottom: 10px;
+}
+.upcoming-item img{
+    float: left;
+}
+.upcoming-item-info{
+    margin-left: 30px;
+}
+.upcoming-item h5,
+.upcoming-item h5 a{
+    color: #53A4BD;
+    font-style: italic;
+}
